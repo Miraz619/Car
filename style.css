@@ -84,4 +84,41 @@ height: 120px;
         color: #000000; /* Set text color to dark gray */
       }
       
-     
+     /* Mobile Styles */
+@media (max-width: 575px) {
+  .car-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cars {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .cars img {
+    width: 100%;
+    height: auto;
+  }
+
+
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin-bottom: 10px;
+  }
+}
