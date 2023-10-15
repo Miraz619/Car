@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Car</title>
+    <link rel="stylesheet" href="rent.css">
+</head>
+<body>
+    <h1>Rent Car</h1>
+
+    <h2>Rental Information</h2>
+    <form action="/rent" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="pickupDate">Pickup Date:</label>
+        <input type="date" id="pickupDate" name="pickupDate" required>
+
+        <label for="returnDate">Return Date:</label>
+        <input type="date" id="returnDate" name="returnDate" required>
+
+        <button type="submit">Submit Rental Request</button>
+    </form>
+</body>
+</html>
