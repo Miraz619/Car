@@ -1,0 +1,77 @@
+body{
+margin: 0px;
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+  }
+  a{
+text-decoration: none;
+
+  }
+  li {
+    margin: 0 10px;
+ 
+  }
+  .logo .car{
+
+height: auto;
+width: 50px;
+left: 0px;
+  }
+  header{
+background-color: gray;
+height: 120px;
+
+
+
+
+  }
+  header li a{
+    font-weight: bolder;
+    color: black;
+
+  }
+
+  
+  .cars p {
+    margin: 5px 0;
+  }
+  
+     
+  .car-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .cars {
+    width: 23%; 
+    margin-bottom: 20px;
+    border: 1px solid #0f0f0f;
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  .cars img {
+    width: 100%;
+    height: auto;
+  }
+
+  .rent{
+    display: inline-block;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(240, 0, 0),tomato);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    color: black;
+  
+  
+  
+      }
