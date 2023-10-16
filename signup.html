@@ -1,42 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="signup.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign up</title>
+  <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <header>
+    <div class="logo">
+      <a href="/"><img class="car" src="images/car-xxl.png" alt=""> </a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="/">Rent a Car</a></li>
+        <li><a href="/cars">Our Cars</a></li>
+        <li><a href="/services">Our Services</a></li>
+        <li><a href="/contact">Contact Us</a></li>
 
-<h2 >Sign up </h2>
+        <li class="in">
+          <a href="signin.html">Sign In</a>
+      </li>
+      <li class="up">
+          <a href="signup.html">Sign Up</a>
+      </li>
+      </ul>
+    </nav>
+  </header>
 
-<form action="/action_page.php" method="post">
-  <div class="imgcontainer">
-   
-  </div>
+  <h2 >Sign up </h2>
 
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-   <label for="nickname"><b>Nick name</b></label> 
-   <input type="text" placeholder="Enter nick name" name ="nickname">
-   <label for="email"><b>Email</b></label>
-   <input type="text"placeholder="Enter Email adders" name="email"> 
-
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-    <label for="retype"><b>Retype Password</b></label>
-    <input type="password" placeholder="Re-type password" name="retype" >
-        
-    <button type="submit">Sign up</button>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-    
-    
-  </div>
-
-
-</form>
+  <form action="/action_page.php" method="post">
+    <div class="imgcontainer">
+     
+    </div>
+  
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+     <label for="nickname"><b>Nick name</b></label> 
+     <input type="text" placeholder="Enter nick name" name ="nickname">
+     <label for="email"><b>Email</b></label>
+     <input type="text"placeholder="Enter Email adders" name="email"> 
+  
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="retype"><b>Retype Password</b></label>
+      <input type="password" placeholder="Re-type password" name="retype" >
+          
+      <button type="submit">Sign up</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+      
+      
+    </div>
+  
+  
+  </form>
 
 </body>
 </html>
+
+

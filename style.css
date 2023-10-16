@@ -1,38 +1,42 @@
-body{
-margin: 0px;
-
-}
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-margin-left: 500px;
-
-  }
-  a{
+*{
+margin: 0;
+padding: 0;
 text-decoration: none;
 
-  }
+}
+body{
+
+  font-family: helvetica;
+}
+header{
+  background-color: rgb(3, 3, 3);
+  height: 120px;
   
+  
+  
+  
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  margin-left: 500px;
+  
+    }
+
   .logo .car{
 
 height: auto;
 width: 50px;
 left: 0px;
-  }
-  header{
-background-color: rgb(3, 3, 3);
-height: 120px;
-
-
-
 
   }
+ 
   header li a{
     font-weight:900;
     color: rgb(255, 255, 255);
-
+text-transform: uppercase;
   }
 
   
@@ -72,53 +76,17 @@ height: 120px;
   
   
       }
-      .right-options {
-        display: flex; /* Display as flexbox for closer positioning */
+     
+      
+      .in {
+       margin-left: 200px;
     
-        background-color: #db0505; /* Add a light gray background color */
-        padding: 5px; /* Add padding for better visual separation */
+        
       }
-      
-      .right-options a {
-        margin-right: 10px; /* Add spacing between "Sign In" and "Sign Up" */
-        color: #000000; /* Set text color to dark gray */
+      .up{
+            margin-right: 200px;
+
       }
+    
       
-     /* Mobile Styles */
-@media (max-width: 575px) {
-  .car-list {
-    display: flex;
-    flex-direction: column;
-  }
 
-  .cars {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-
-  .cars img {
-    width: 100%;
-    height: auto;
-  }
-
-
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .logo {
-    margin-bottom: 20px;
-  }
-
-  nav ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav li {
-    margin-bottom: 10px;
-  }
-}
