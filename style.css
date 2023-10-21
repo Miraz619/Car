@@ -87,41 +87,72 @@ text-transform: uppercase;
             margin-right: 200px;
 
       }
-    
+      .in a:hover {
+        color: #007bff;
+       
+      }
+      
+      .up a:hover {
+        color: #007bff;
+        
+      }
+      
       
 
-      .bottom-section {
-        background-color: #f2f2f2;
-        padding: 20px;
-        text-align: center;
-      }
-      
-      .bottom-section h3 {
-        margin-bottom: 10px;
-      }
-      
-      .bottom-section ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      
-      .bottom-section li {
-        display: inline-block;
-        margin-right: 10px;
-      }
-      
-      .bottom-section a {
-        text-decoration: none;
-        color: #000;
-      }
-      footer{
+/* Footer styles */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 30px 0;
+  color: #fffdfd;
+}
 
-position: relative;
-width: 100%;
-height: auto;
-padding: 50px 100px;
-background: #5c5959;
-float: left;
+.footer .service,
+.footer .address,
+.footer .social {
+  margin-right: 200px;
+}
 
-      }
+.footer h2 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.footer ul li {
+  margin-right: 15px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .address span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer .address p {
+  color: #fff;
+  margin: 0;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+  background-color: #222;
+}
+.footer .address p a {
+  color: #fff; /* Set phone number and email color to white */
+}

@@ -1,55 +1,57 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f2f2f2; /* Add a light gray background color */
-  }
-  
-  h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333; /* Set text color to dark gray */
-  }
-  
-  form {
-    width: 400px;
-    margin: 0 auto;
-    background-color: #fff; /* Add a white background color */
-    padding: 20px;
-    border: 1px solid #ccc;
-  }
-  
-  .container {
-    padding: 16px;
-  }
-  
-  .imgcontainer {
-    text-align: center; /* Center the image container */
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 10px; /* Add space between labels and inputs */
-  }
-  
-  input[type=text], input[type=password], button {
-    width: 100%; /* Set width to 100% for full-width inputs */
-    padding: 8px 10px; /* Reduce the padding to 8px vertically and 10px horizontally */
-    margin-bottom: 15px; /* Add space between input fields */
-    display: block; /* Display inputs as block elements for vertical arrangement */
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  
-  button {
-    background-color: #04AA6D;
-    color: white;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    opacity: 0.8;
-  }
-  
- 
-  
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 500px;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
