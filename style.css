@@ -99,7 +99,7 @@ text-transform: uppercase;
       
       
 
-/* Footer styles */
+
 .footer {
   display: flex;
   justify-content: center;
@@ -154,5 +154,5 @@ text-transform: uppercase;
   background-color: #222;
 }
 .footer .address p a {
-  color: #fff; /* Set phone number and email color to white */
+  color: #fff;
 }

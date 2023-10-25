@@ -40,7 +40,7 @@
         const submitBtn = document.getElementById('submitBtn');
 
         submitBtn.addEventListener('click', function (event) {
-            event.preventDefault(); // Prevent form submission
+            event.preventDefault(); 
 
             const username = usernameInput.value.trim();
             const password = passwordInput.value.trim();
@@ -55,8 +55,8 @@
                 return;
             }
 
-            // Submit the form if validation passes
-            console.log('Form submitted with valid credentials');
+     
+            alert('Form submitted with valid credentials');
         });
     </script>
 </body>

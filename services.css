@@ -32,11 +32,11 @@ html,body{
   align-items: center;
   padding: 20px 30px;
   border-radius: 15px;
-  width
+  
   
   
 }
-.box .quote i{
+.box .rating i{
 margin-top: 10px;
 font-size: 45px;
 color: #17c0eb
@@ -68,11 +68,7 @@ color: #17c0eb
   font-size: 18px;
   font-weight: 600;
 }
-.rating i{
-  font-size: 18px;
-  color: #8e44ad;
-  margin-bottom: 5px;
-}
+
 .btns{
   margin-top: 20px;
   margin-bottom: 5px;
